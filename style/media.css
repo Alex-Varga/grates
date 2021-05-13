@@ -1,0 +1,124 @@
+@media screen and (max-width:1200px) {
+  .container {
+    padding: 0 140px;
+  }
+  .main-section {
+    padding: 0 140px;
+  }
+}
+
+
+@media screen and (max-width:960px) {
+  .container {
+    padding: 0 100px;
+  }
+  .header-text {
+    display: none;
+  }
+  .box{
+    height: 200px;
+  }
+  .box .info-box img{
+    padding: 4px 0;
+  }
+  .box-item img{
+    width: 150px;
+    height: 150px;
+  }
+  .main-section {
+    padding: 0 100px;
+  }
+  .sidebar {
+    margin: 40px 40px 0 0;
+  }
+  footer .main-menu ul li a {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .container {
+    padding: 0 70px;
+  }
+  .main-section {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .container {
+    padding: 0 40px;
+  }
+  .main-section {
+    padding: 0 40px;
+  }
+  .section-content{
+    width: 100%;
+  }
+  .sidebar{
+    display: none;
+  }
+  .main-menu ul li a {
+    margin: 10px;
+  }
+  .box-item {
+    margin: 0 20px 20px 0;
+    flex-basis: calc((100% / 2) - 1rem);
+  }
+  .box-item:nth-child(2n){
+    margin: 0;
+  }
+  .header-tel {
+    display: none;
+  }
+  .menu-burger__header {
+    position: relative; /* задаем относительное позиционирование */
+    width: 40px; /* определяем размеры блока */
+    height: 35px;
+    display: block;
+    margin-left: 10px;
+  }
+  .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+  }
+  .menu-burger__header span{
+      top: 14px;
+  }
+  .menu-burger__header:after, .menu-burger__header:before{
+      content: '';
+  }
+  .menu-burger__header:after{
+      bottom: 7px;
+  }
+  .menu-burger__header:before{
+      top: 3px;
+  }
+  footer .main-menu {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:420px) {
+  .container {
+    padding: 0 20px;
+  }
+  .main-section {
+    padding: 0 20px;
+  }
+  .boxx {
+    padding: 0 40px;
+  }
+  .box-item {
+    flex-basis: calc((100% / 1) );
+    margin-right: 0;
+    height: 220px;
+  }
+  .box-item:nth-child(2n){
+    margin-bottom: 20px;
+  }
+}

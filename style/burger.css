@@ -1,0 +1,50 @@
+.menu-burger__header.open-menu span {
+  opacity:0; 
+  transition: 0.5s; 
+}
+.menu-burger__header.open-menu:before {
+  transform: rotate(38deg);
+  top: 16px;
+  transition: 0.4s;
+}
+.menu-burger__header.open-menu:after {
+  transform: rotate(-38deg);
+  bottom: 16px;
+  transition: 0.4s;
+}
+.menu-burger__header {
+  z-index: 100;
+}
+.header-logo {
+  z-index: 100;
+}
+.menu-burger__header:hover {
+  cursor: pointer;
+}
+nav.header__nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+  transition: all 0.4s ease;
+  z-index: 99;
+}
+
+.header__menu {
+  padding: 0;
+  display: block;
+  z-index: 99;
+}
+.header__menu li {
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+.header__nav.open-menu {
+  display: block;
+  padding-top: 40px;
+  right: 100%;
+  box-shadow: 0 0 0 9999px rgba(0,0,0, 0.5);
+}
