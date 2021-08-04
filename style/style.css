@@ -61,7 +61,7 @@ form {
 }
 .search button:before {
   position: absolute;
-  content: url("/img/Search.png");
+  content: url("../img/Search.png");
   right: 12px;
   bottom: 1px;
 }
